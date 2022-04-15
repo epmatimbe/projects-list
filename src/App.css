@@ -1,0 +1,82 @@
+.App {
+  text-align: left;
+  width: 100vw;
+  padding: 20px;
+  color: #24507d;
+}
+
+.head-title{
+font-weight: bold;
+  font-size: 1.2em;
+}
+.card-container {
+  border: 1px solid #efefef;
+  border-radius: .3em;
+  box-shadow: 2px 2px 5px #e8e8e8;
+  padding: 24px;
+  text-align: start;
+  width: 300px;
+  color: #444444;
+}
+
+.card-header {
+  display: block;
+}
+
+.card-header span {
+  display: block;
+}
+.card-tag {
+  padding: .2em .5em;
+  color: #9b5d31;
+  background: #f4d690;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  width: fit-content;
+}
+
+.card-title{
+  font-weight: bold;
+  margin: 1em 0;
+}
+.location{
+  font-style: italic;
+  font-weight: lighter;
+  font-size: .9em;
+}
+.card-description{
+  text-align: justify-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-weight: 300;
+  margin: .5em 0;
+}
+.block-space-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .2em 0;
+}
+.amount{
+  font-weight: bold;
+}
+
+.card-footer{
+  margin-top: .5em;}
+.btn{
+  background: #efefef;
+  padding: .5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+  color: grey;
+  border-radius: .2em;
+}
+
+.btn:hover {
+  opacity: 1.2;
+}
