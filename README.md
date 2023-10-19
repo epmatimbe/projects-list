@@ -1,2 +1,7 @@
 # projects-list
-Simple Project Cards
+Simple Cards Project 
+
+**Implementations:**
+- [ ] GitHub Actions
+- [ ] 
+
