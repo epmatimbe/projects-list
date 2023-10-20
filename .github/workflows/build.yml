@@ -61,14 +61,14 @@ jobs:
         with:
           name: build-artifacts
           path: |
-            build
-      - run: ls -a
+            build/
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ env.USER }}
           password: ${{ env.AUTH_TOKEN }}
+      - run: ls -ga
       - name: Build and push docker image
         uses: docker/build-push-action@v5
         with:
