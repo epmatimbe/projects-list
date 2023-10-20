@@ -74,4 +74,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.USER }}/${{ env.PROJECT_NAME }}:latest
+          tags: ghcr.io/${{ env.USER }}/${{ env.PROJECT_NAME }}:latest
