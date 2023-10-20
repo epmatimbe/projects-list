@@ -7,7 +7,7 @@ on: [push]
 env:
   PROJECT_NAME: project-list
   USER: ${{ github.actor }}
-  AUTH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+  AUTH_TOKEN:  ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
 
 jobs:
   install-dependencies:
